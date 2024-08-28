@@ -1,4 +1,3 @@
-if game.PlaceId == 10449761463 then
 game.StarterGui:SetCore("SendNotification", { 
 
 Title = "SEA HUB REVAMP"; 
@@ -751,18 +750,3 @@ end)
 
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("Made By || GojoFr")
-
-if game.PlaceId == 9391468976 then
-game.StarterGui:SetCore("SendNotification", { 
-
-Title = "NOTIFICATION"; 
-
-Text = "YOU'RE ALREADY PLAYING AS THIS CHARACTER."; 
-
-Icon = ""; 
-
-Duration = 5; 
-
-})
-wait(0.1)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Eldaiblo5/SEAHUBREVAMP/main/SEAkabwlBkbAbaosiahskb%20Strongest%20Script%20NoakAbaNoLol"))()
