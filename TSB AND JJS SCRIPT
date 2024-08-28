@@ -1,0 +1,768 @@
+if game.PlaceId == 10449761463 then
+game.StarterGui:SetCore("SendNotification", { 
+
+Title = "SEA HUB REVAMP"; 
+
+Text = "By GojoFr."; 
+
+Icon = ""; 
+
+Duration = 5; 
+
+})
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Sea Hub X [REVAMP] || GojoFr", "Midnight")
+local Tab = Window:NewTab("KJ Stuff")
+local Section = Tab:NewSection("KJ Base Moves Animations")
+Section:NewButton("Ravage StartUp", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://16945573694" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://0" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        Wait(3)
+end)
+Section:NewButton("Ravage Full Move", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://16945550029" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://0" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        Wait(3)
+end)
+Section:NewButton("Ravage Victim", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://16945557433" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://0" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        Wait(3)
+end)
+Section:NewButton("Swift sweep", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://16944345619" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://0" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        Wait(3)
+end)
+Section:NewButton("Collateral Ruin", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://17325254223" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://0" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        Wait(3)
+end)
+local Section = Tab:NewSection("KJ Ult moves Animations")
+Section:NewButton("20 20 20 DropKick", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://17354976067" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://17356346310" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        Wait(3)
+end)
+Section:NewButton("20 20 20 DropKick player", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://17420452843" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://0" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        Wait(3)
+end)
+Section:NewButton("20 20 20 DropKick victim", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://17363256069" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://0" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        Wait(3)
+end)
+Section:NewButton("Stoic Bomb", "ButtonInfo", function()
+    		local player = game.Players.LocalPlayer
+        repeat wait() until player.Character.Humanoid 
+        local humanoid = player.Character.Humanoid 
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait() 
+        local UserInputService = game:GetService("UserInputService") 
+       debounce = false -- Activate debounce 
+        local anim = Instance.new("Animation") 
+        anim.AnimationId = "rbxassetid://17141153099" 
+        local playAnim = humanoid:LoadAnimation(anim) 
+        anim.AnimationId = "rbxassetid://0" 
+        local Sound = Instance.new("Sound") 
+        Sound.Parent = character 
+        Sound.SoundId = "rbxassetid://0" 
+        Sound.Playing = true 
+        spawn(function() 
+        wait(1) 
+        debounce = true 
+        end) 
+        playAnim:Play() 
+        playAnim:AdjustSpeed(0.3) 
+        wait(0.3) 
+        playAnim:AdjustSpeed(1) 
+        local Players = game:GetService("Players") 
+        local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait() 
+        local animationPlayed = false -- Flag to track if the animation has already been played
+        local Character = p.Character local Humanoid = Character:WaitForChild("Humanoid") local RootPart = Character:WaitForChild("HumanoidRootPart") local move = Instance.new("BodyVelocity", RootPart) move.MaxForce = Vector3.new(math.huge, 0, math.huge) 
+        Wait(3)
+        
+end)
+local Section = Tab:NewSection("Five Seasons soon")
+local Tab = Window:NewTab("Exploits")
+local Section = Tab:NewSection("Esp")
+Section:NewButton("Esp Players", "ButtonInfo", function()
+    -- Preview: https://cdn.discordapp.com/attachments/807887111667056680/820258191224340490/chams.png
+-- Made by Blissful#4992
+local Settings = {
+    TeamCheck = true, -- Overules Color
+    Red = Color3.fromRGB(255, 0, 0),
+    Green = Color3.fromRGB(0, 255, 0),
+    Color = Color3.fromRGB(255, 0, 0),
+    TeamColor = false
+}
+
+--// Locals
+local player = game:GetService("Players").LocalPlayer
+local camera = game:GetService("Workspace").CurrentCamera
+local mouse = player:GetMouse()
+
+local function NewQuad(color)
+    local quad = Drawing.new("Quad")
+    quad.Visible = false
+    quad.PointA = Vector2.new(0,0)
+    quad.PointB = Vector2.new(0,0)
+    quad.PointC = Vector2.new(0,0)
+    quad.PointD = Vector2.new(0,0)
+    quad.Color = color
+    quad.Filled = true
+    quad.Thickness = 1
+    quad.Transparency = 0.25
+    return quad
+end
+
+local function Colorize(color, lib)
+    for i, v in pairs(lib) do
+        v.Color = color
+    end
+end
+
+local function ESP(object, plr)
+    local part = object
+    --// Quads for 3D box (6)
+    local quads = {
+        quad1 = NewQuad(Settings.Color),
+        quad2 = NewQuad(Settings.Color),
+        quad3 = NewQuad(Settings.Color),
+        quad4 = NewQuad(Settings.Color),
+        quad5 = NewQuad(Settings.Color),
+        quad6 = NewQuad(Settings.Color)
+    }
+
+    --// Updates ESP in render loop
+    local function Updater()
+        local connection
+        connection = game:GetService("RunService").RenderStepped:Connect(function()
+            if plr.Character ~= nil and plr.Character:FindFirstChild("HumanoidRootPart") ~= nil and plr.Character:FindFirstChild("Humanoid") ~= nil and plr.Character.Humanoid.Health > 0 and plr.Character:FindFirstChild(object.Name) ~= nil then
+                    local partpos, onscreen = camera:WorldToViewportPoint(part.Position)
+                    if onscreen then
+                        local size_X = part.Size.X/2
+                        local size_Y = part.Size.Y/2
+                        local size_Z = part.Size.Z/2
+                        
+                        local Top1 = camera:WorldToViewportPoint((part.CFrame * CFrame.new(-size_X, size_Y, -size_Z)).p)
+                        local Top2 = camera:WorldToViewportPoint((part.CFrame * CFrame.new(-size_X, size_Y, size_Z)).p)
+                        local Top3 = camera:WorldToViewportPoint((part.CFrame * CFrame.new(size_X, size_Y, size_Z)).p)
+                        local Top4 = camera:WorldToViewportPoint((part.CFrame * CFrame.new(size_X, size_Y, -size_Z)).p)
+    
+                        local Bottom1 = camera:WorldToViewportPoint((part.CFrame * CFrame.new(-size_X, -size_Y, -size_Z)).p)
+                        local Bottom2 = camera:WorldToViewportPoint((part.CFrame * CFrame.new(-size_X, -size_Y, size_Z)).p)
+                        local Bottom3 = camera:WorldToViewportPoint((part.CFrame * CFrame.new(size_X, -size_Y, size_Z)).p)
+                        local Bottom4 = camera:WorldToViewportPoint((part.CFrame * CFrame.new(size_X, -size_Y, -size_Z)).p)
+    
+                        --// Top:
+                        quads.quad1.PointA = Vector2.new(Top1.X, Top1.Y)
+                        quads.quad1.PointB = Vector2.new(Top2.X, Top2.Y)
+                        quads.quad1.PointC = Vector2.new(Top3.X, Top3.Y)
+                        quads.quad1.PointD = Vector2.new(Top4.X, Top4.Y)
+    
+                        --//Bottom:
+                        quads.quad2.PointA = Vector2.new(Bottom1.X, Bottom1.Y)
+                        quads.quad2.PointB = Vector2.new(Bottom2.X, Bottom2.Y)
+                        quads.quad2.PointC = Vector2.new(Bottom3.X, Bottom3.Y)
+                        quads.quad2.PointD = Vector2.new(Bottom4.X, Bottom4.Y)
+    
+                        --//Sides:
+                        quads.quad3.PointA = Vector2.new(Top1.X, Top1.Y)
+                        quads.quad3.PointB = Vector2.new(Top2.X, Top2.Y)
+                        quads.quad3.PointC = Vector2.new(Bottom2.X, Bottom2.Y)
+                        quads.quad3.PointD = Vector2.new(Bottom1.X, Bottom1.Y)
+                        
+                        quads.quad4.PointA = Vector2.new(Top2.X, Top2.Y)
+                        quads.quad4.PointB = Vector2.new(Top3.X, Top3.Y)
+                        quads.quad4.PointC = Vector2.new(Bottom3.X, Bottom3.Y)
+                        quads.quad4.PointD = Vector2.new(Bottom2.X, Bottom2.Y)
+                        
+                        quads.quad5.PointA = Vector2.new(Top3.X, Top3.Y)
+                        quads.quad5.PointB = Vector2.new(Top4.X, Top4.Y)
+                        quads.quad5.PointC = Vector2.new(Bottom4.X, Bottom4.Y)
+                        quads.quad5.PointD = Vector2.new(Bottom3.X, Bottom3.Y)
+    
+                        quads.quad6.PointA = Vector2.new(Top4.X, Top4.Y)
+                        quads.quad6.PointB = Vector2.new(Top1.X, Top1.Y)
+                        quads.quad6.PointC = Vector2.new(Bottom1.X, Bottom1.Y)
+                        quads.quad6.PointD = Vector2.new(Bottom4.X, Bottom4.Y)
+    
+                        if Settings.Team_Check then
+                            if plr.TeamColor == player.TeamColor then
+                                local group_color = Settings.Green
+                                Colorize(group_color, quads)
+                            else 
+                                local group_color = Settings.Red
+                                Colorize(group_color, quads)
+                            end
+                        else 
+                            local group_color = Settings.Color
+                            Colorize(group_color, quads)
+                        end
+
+                        if Settings.TeamColor then
+                            Colorize(plr.TeamColor.Color, quads)
+                        end
+    
+                        for u, x in pairs(quads) do
+                            x.Visible = true
+                        end
+                    else 
+                        for u, x in pairs(quads) do
+                            x.Visible = false
+                        end
+                    end
+            else 
+                for u, x in pairs(quads) do
+                    x.Visible = false
+                end
+                if game.Players:FindFirstChild(plr.Name) == nil then
+                    connection:Disconnect()
+                end
+            end
+        end)
+    end
+    coroutine.wrap(Updater)()
+end
+
+for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+    spawn(function()
+        if v.Name ~= player.Name then
+            repeat wait() until v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v.Character.Humanoid.Health > 0 and v.Character:FindFirstChild("Head") ~= nil
+            for u, x in pairs(v.Character:GetChildren()) do
+                if x:IsA("MeshPart") or x.Name == "Head" or x.Name == "Left Arm" or x.Name == "Right Arm" or x.Name == "Right Leg" or x.Name == "Left Leg" or x.Name == "Torso" then
+                    coroutine.wrap(ESP)(x, v)
+                end
+            end
+        end
+    end)
+end
+
+game.Players.PlayerAdded:Connect(function(newplr)
+    spawn(function()
+        if newplr.Name ~= player.Name then
+            repeat wait() until newplr.Character ~= nil and newplr.Character:FindFirstChild("Humanoid") ~= nil and newplr.Character:FindFirstChild("HumanoidRootPart") ~= nil and newplr.Character.Humanoid.Health > 0 and newplr.Character:FindFirstChild("Head") ~= nil
+            for u, x in pairs(newplr.Character:GetChildren()) do
+                if x:IsA("MeshPart") or x.Name == "Head" or x.Name == "Left Arm" or x.Name == "Right Arm" or x.Name == "Right Leg" or x.Name == "Left Leg" or x.Name == "Torso" then
+                    coroutine.wrap(ESP)(x, newplr)
+                end
+            end
+        end
+    end)
+end)
+
+
+end)
+local Section = Tab:NewSection("Stuff")
+Section:NewButton("Tp To random Player", "ButtonInfo", function()
+    local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+function teleportToRandomPlayer()
+    local allPlayers = Players:GetPlayers()
+    local otherPlayers = {}
+
+    for _, player in ipairs(allPlayers) do
+        if player ~= LocalPlayer then
+            table.insert(otherPlayers, player)
+        end
+    end
+
+    if #otherPlayers > 0 then
+        local randomPlayer = otherPlayers[math.random(1, #otherPlayers)]
+        LocalPlayer.Character.HumanoidRootPart.CFrame = randomPlayer.Character.HumanoidRootPart.CFrame
+    else
+        print("No other players found.")
+    end
+end
+
+teleportToRandomPlayer()
+
+end)
+Section:NewButton("Aimbot", "ButtonInfo", function()
+    --// Cache
+
+local select = select
+local pcall, getgenv, next, Vector2, mathclamp, type, mousemoverel = select(1, pcall, getgenv, next, Vector2.new, math.clamp, type, mousemoverel or (Input and Input.MouseMove))
+
+--// Preventing Multiple Processes
+
+pcall(function()
+	getgenv().Aimbot.Functions:Exit()
+end)
+
+--// Environment
+
+getgenv().Aimbot = {}
+local Environment = getgenv().Aimbot
+
+--// Services
+
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local Players = game:GetService("Players")
+local Camera = workspace.CurrentCamera
+local LocalPlayer = Players.LocalPlayer
+
+--// Variables
+
+local RequiredDistance, Typing, Running, Animation, ServiceConnections = 2000, false, false, nil, {}
+
+--// Script Settings
+
+Environment.Settings = {
+	Enabled = true,
+	TeamCheck = false,
+	AliveCheck = true,
+	WallCheck = false, -- Laggy
+	Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
+	ThirdPerson = false, -- Uses mousemoverel instead of CFrame to support locking in third person (could be choppy)
+	ThirdPersonSensitivity = 3, -- Boundary: 0.1 - 5
+	TriggerKey = "MouseButton2",
+	Toggle = false,
+	LockPart = "Head" -- Body part to lock on
+}
+
+Environment.FOVSettings = {
+	Enabled = true,
+	Visible = true,
+	Amount = 90,
+	Color = Color3.fromRGB(255, 255, 255),
+	LockedColor = Color3.fromRGB(255, 70, 70),
+	Transparency = 0.5,
+	Sides = 60,
+	Thickness = 1,
+	Filled = false
+}
+
+Environment.FOVCircle = Drawing.new("Circle")
+
+--// Functions
+
+local function CancelLock()
+	Environment.Locked = nil
+	if Animation then Animation:Cancel() end
+	Environment.FOVCircle.Color = Environment.FOVSettings.Color
+end
+
+local function GetClosestPlayer()
+	if not Environment.Locked then
+		RequiredDistance = (Environment.FOVSettings.Enabled and Environment.FOVSettings.Amount or 2000)
+
+		for _, v in next, Players:GetPlayers() do
+			if v ~= LocalPlayer then
+				if v.Character and v.Character:FindFirstChild(Environment.Settings.LockPart) and v.Character:FindFirstChildOfClass("Humanoid") then
+					if Environment.Settings.TeamCheck and v.Team == LocalPlayer.Team then continue end
+					if Environment.Settings.AliveCheck and v.Character:FindFirstChildOfClass("Humanoid").Health <= 0 then continue end
+					if Environment.Settings.WallCheck and #(Camera:GetPartsObscuringTarget({v.Character[Environment.Settings.LockPart].Position}, v.Character:GetDescendants())) > 0 then continue end
+
+					local Vector, OnScreen = Camera:WorldToViewportPoint(v.Character[Environment.Settings.LockPart].Position)
+					local Distance = (Vector2(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y) - Vector2(Vector.X, Vector.Y)).Magnitude
+
+					if Distance < RequiredDistance and OnScreen then
+						RequiredDistance = Distance
+						Environment.Locked = v
+					end
+				end
+			end
+		end
+	elseif (Vector2(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y) - Vector2(Camera:WorldToViewportPoint(Environment.Locked.Character[Environment.Settings.LockPart].Position).X, Camera:WorldToViewportPoint(Environment.Locked.Character[Environment.Settings.LockPart].Position).Y)).Magnitude > RequiredDistance then
+		CancelLock()
+	end
+end
+
+--// Typing Check
+
+ServiceConnections.TypingStartedConnection = UserInputService.TextBoxFocused:Connect(function()
+	Typing = true
+end)
+
+ServiceConnections.TypingEndedConnection = UserInputService.TextBoxFocusReleased:Connect(function()
+	Typing = false
+end)
+
+--// Main
+
+local function Load()
+	ServiceConnections.RenderSteppedConnection = RunService.RenderStepped:Connect(function()
+		if Environment.FOVSettings.Enabled and Environment.Settings.Enabled then
+			Environment.FOVCircle.Radius = Environment.FOVSettings.Amount
+			Environment.FOVCircle.Thickness = Environment.FOVSettings.Thickness
+			Environment.FOVCircle.Filled = Environment.FOVSettings.Filled
+			Environment.FOVCircle.NumSides = Environment.FOVSettings.Sides
+			Environment.FOVCircle.Color = Environment.FOVSettings.Color
+			Environment.FOVCircle.Transparency = Environment.FOVSettings.Transparency
+			Environment.FOVCircle.Visible = Environment.FOVSettings.Visible
+			Environment.FOVCircle.Position = Vector2(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y)
+		else
+			Environment.FOVCircle.Visible = false
+		end
+
+		if Running and Environment.Settings.Enabled then
+			GetClosestPlayer()
+
+			if Environment.Locked then
+				if Environment.Settings.ThirdPerson then
+					Environment.Settings.ThirdPersonSensitivity = mathclamp(Environment.Settings.ThirdPersonSensitivity, 0.1, 5)
+
+					local Vector = Camera:WorldToViewportPoint(Environment.Locked.Character[Environment.Settings.LockPart].Position)
+					mousemoverel((Vector.X - UserInputService:GetMouseLocation().X) * Environment.Settings.ThirdPersonSensitivity, (Vector.Y - UserInputService:GetMouseLocation().Y) * Environment.Settings.ThirdPersonSensitivity)
+				else
+					if Environment.Settings.Sensitivity > 0 then
+						Animation = TweenService:Create(Camera, TweenInfo.new(Environment.Settings.Sensitivity, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {CFrame = CFrame.new(Camera.CFrame.Position, Environment.Locked.Character[Environment.Settings.LockPart].Position)})
+						Animation:Play()
+					else
+						Camera.CFrame = CFrame.new(Camera.CFrame.Position, Environment.Locked.Character[Environment.Settings.LockPart].Position)
+					end
+				end
+
+			Environment.FOVCircle.Color = Environment.FOVSettings.LockedColor
+
+			end
+		end
+	end)
+
+	ServiceConnections.InputBeganConnection = UserInputService.InputBegan:Connect(function(Input)
+		if not Typing then
+			pcall(function()
+				if Input.KeyCode == Enum.KeyCode[Environment.Settings.TriggerKey] then
+					if Environment.Settings.Toggle then
+						Running = not Running
+
+						if not Running then
+							CancelLock()
+						end
+					else
+						Running = true
+					end
+				end
+			end)
+
+			pcall(function()
+				if Input.UserInputType == Enum.UserInputType[Environment.Settings.TriggerKey] then
+					if Environment.Settings.Toggle then
+						Running = not Running
+
+						if not Running then
+							CancelLock()
+						end
+					else
+						Running = true
+					end
+				end
+			end)
+		end
+	end)
+
+	ServiceConnections.InputEndedConnection = UserInputService.InputEnded:Connect(function(Input)
+		if not Typing then
+			if not Environment.Settings.Toggle then
+				pcall(function()
+					if Input.KeyCode == Enum.KeyCode[Environment.Settings.TriggerKey] then
+						Running = false; CancelLock()
+					end
+				end)
+
+				pcall(function()
+					if Input.UserInputType == Enum.UserInputType[Environment.Settings.TriggerKey] then
+						Running = false; CancelLock()
+					end
+				end)
+			end
+		end
+	end)
+end
+
+--// Functions
+
+Environment.Functions = {}
+
+function Environment.Functions:Exit()
+	for _, v in next, ServiceConnections do
+		v:Disconnect()
+	end
+
+	if Environment.FOVCircle.Remove then Environment.FOVCircle:Remove() end
+
+	getgenv().Aimbot.Functions = nil
+	getgenv().Aimbot = nil
+	
+	Load = nil; GetClosestPlayer = nil; CancelLock = nil
+end
+
+function Environment.Functions:Restart()
+	for _, v in next, ServiceConnections do
+		v:Disconnect()
+	end
+
+	Load()
+end
+
+function Environment.Functions:ResetSettings()
+	Environment.Settings = {
+		Enabled = true,
+		TeamCheck = false,
+		AliveCheck = true,
+		WallCheck = false,
+		Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
+		ThirdPerson = false, -- Uses mousemoverel instead of CFrame to support locking in third person (could be choppy)
+		ThirdPersonSensitivity = 3, -- Boundary: 0.1 - 5
+		TriggerKey = "MouseButton2",
+		Toggle = false,
+		LockPart = "Head" -- Body part to lock on
+	}
+
+	Environment.FOVSettings = {
+		Enabled = true,
+		Visible = true,
+		Amount = 90,
+		Color = Color3.fromRGB(255, 255, 255),
+		LockedColor = Color3.fromRGB(255, 70, 70),
+		Transparency = 0.5,
+		Sides = 60,
+		Thickness = 1,
+		Filled = false
+	}
+end
+
+--// Load
+
+Load()
+end)
+Section:NewButton("Speed 100", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+end)
+Section:NewButton("No Stun", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 17
+end)
+Section:NewButton("Super Jump 100", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+end)
+local Section = Tab:NewSection("Admin Scripts")
+
+
+local Tab = Window:NewTab("Tsb Scripts")
+local Section = Tab:NewSection("SCRIPTS")
+Section:NewButton("Saitama To GOJO", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Gojo-moveset-need-Saitama-16875"))()
+end)
+Section:NewButton("Saitama To GOJO 2", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Gojo-Moveset-Script-FIX-16704"))()
+end)
+Section:NewButton("JOJO Script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/h8h88/dfgfdvdf/main/eeeee"))()
+end)
+Section:NewButton("GOKU", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/qPZxkSM8"))()
+end)
+Section:NewButton("Mixed Power fr", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Y3uyGSK6"))()
+end)
+
+local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("Made By || GojoFr")
+
+if game.PlaceId == 9391468976 then
+game.StarterGui:SetCore("SendNotification", { 
+
+Title = "NOTIFICATION"; 
+
+Text = "YOU'RE ALREADY PLAYING AS THIS CHARACTER."; 
+
+Icon = ""; 
+
+Duration = 5; 
+
+})
+wait(0.1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Eldaiblo5/SEAHUBREVAMP/main/SEAkabwlBkbAbaosiahskb%20Strongest%20Script%20NoakAbaNoLol"))()
