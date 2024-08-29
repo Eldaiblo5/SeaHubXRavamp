@@ -296,9 +296,8 @@ end)
 local Section = Tab:NewSection("Five Seasons soon")
 local Tab = Window:NewTab("Exploits")
 local Section = Tab:NewSection("Esp")
-Section:NewToggle("Esp Players", "ToggleInfo", function(state)
-    if state then
-        -- 1. Load the library
+Section:NewButton("Esp Players", "ToggleInfo", function()
+    -- 1. Load the library
 local Sense = loadstring(game:HttpGet('https://sirius.menu/sense'))()
 
 -- 2. Change the configuration.
@@ -311,9 +310,6 @@ Sense.Load()
 
 -- 4. Unload the esp. When you unload Sense, it will clean up every drawing object and instance it has made.
 --Sense.Unload()
-    else
-        Script.Disable()
-    end
 end)
 
 end)
@@ -343,8 +339,7 @@ end
 teleportToRandomPlayer()
 
 end)
-Section:NewToggle("CamLock", "ToggleInfo", function(state)
-    if state then
+Section:NewButton("CamLock", "ToggleInfo", function()
         -- Place this script in a LocalScript inside StarterPlayerScripts or StarterCharacterScripts
 
 -- Function to lock the camera to a specific target
@@ -364,9 +359,6 @@ local head = character:WaitForChild("Head")
 
 lockCamera(head)
 
-    else
-        Script.Disable
-    end
 end)
 Section:NewButton("Speed 100", "ButtonInfo", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
