@@ -10,6 +10,28 @@ Duration = 5;
 
 })
 
+-- Create the button
+local toggleUiButton = Instance.new("TextButton")
+toggleUiButton.Size = UDim2.new(0, 200, 0, 50) -- Size of the button
+toggleUiButton.Position = UDim2.new(0.5, -100, 0.5, -25) -- Center the button
+toggleUiButton.Text = "Toggle UI"
+toggleUiButton.Parent = game.Players.LocalPlayer.PlayerGui.ScreenGui -- Make sure you have a ScreenGui in the PlayerGui
+
+-- Create the UI element to toggle
+local uiElement = Instance.new("Frame")
+uiElement.Size = UDim2.new(0, 300, 0, 200) -- Size of the UI element
+uiElement.Position = UDim2.new(0.5, -150, 0.5, -100) -- Center the UI element
+uiElement.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red background
+uiElement.Visible = false -- Initially hidden
+uiElement.Parent = game.Players.LocalPlayer.PlayerGui.ScreenGui -- Parent it to ScreenGui
+
+-- Function to toggle UI element visibility
+local function toggleUi()
+    uiElement.Visible = not uiElement.Visible
+end
+
+-- Connect the function to the button click event
+toggleUiButton.MouseButton1Click:Connect(toggleUi)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Sea Hub X [REVAMP] || GojoFr", "Midnight")
@@ -750,4 +772,3 @@ end)
 
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("Made By || GojoFr")
-
