@@ -295,24 +295,6 @@ Section:NewButton("Stoic Bomb", "ButtonInfo", function()
 end)
 local Section = Tab:NewSection("Five Seasons soon")
 local Tab = Window:NewTab("Exploits")
-local Section = Tab:NewSection("Esp")
-Section:NewButton("Esp Players", "ToggleInfo", function()
-    -- 1. Load the library
-local Sense = loadstring(game:HttpGet('https://sirius.menu/sense'))()
-
--- 2. Change the configuration.
-Sense.teamSettings.enemy.enabled = true
-Sense.teamSettings.enemy.box = true
-Sense.teamSettings.enemy.boxColor[1] = Color3.new(0, 0.25, 0.75)
-
--- 3. Load the esp. It doesn't really matter where you put this, but it's recommended you put it at the end of your script.
-Sense.Load()
-
--- 4. Unload the esp. When you unload Sense, it will clean up every drawing object and instance it has made.
---Sense.Unload()
-end)
-
-end)
 local Section = Tab:NewSection("Stuff")
 Section:NewButton("Tp To random Player", "ButtonInfo", function()
     local Players = game:GetService("Players")
@@ -339,27 +321,6 @@ end
 teleportToRandomPlayer()
 
 end)
-Section:NewButton("CamLock", "ToggleInfo", function()
-        -- Place this script in a LocalScript inside StarterPlayerScripts or StarterCharacterScripts
-
--- Function to lock the camera to a specific target
-local function lockCamera(target)
-    local player = game.Players.LocalPlayer
-    local camera = workspace.CurrentCamera
-    local character = player.Character or player.CharacterAdded:Wait()
-
-    camera.CameraSubject = target
-    camera.CameraType = Enum.CameraType.Attach
-end
-
--- Lock camera to player's character head
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local head = character:WaitForChild("Head")
-
-lockCamera(head)
-
-end)
 Section:NewButton("Speed 100", "ButtonInfo", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 end)
@@ -369,8 +330,6 @@ end)
 Section:NewButton("Super Jump 100", "ButtonInfo", function()
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
 end)
-local Section = Tab:NewSection("Admin Scripts")
-
 
 local Tab = Window:NewTab("Tsb Scripts")
 local Section = Tab:NewSection("SCRIPTS")
